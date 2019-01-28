@@ -1,0 +1,83 @@
+{
+  "name": "nw-update-demo",
+  "appName": "nw软件升级Demo",
+  "version": "1.0.0",
+  "appId": "{4206C95D-82B0-4006-92A2-6BA362F29CD3}",
+  "copyright": "Copyright(c) 2018",
+  "publisher": "同方赛威讯信息技术有限公司",
+  "engines": {
+    "node": ">= 5.12.0",
+    "npm": ">= 3.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "node build/dev-runner.js",
+    "setup": "node mybuild/build/build-setup.js",
+    "build": "node mybuild/build/build",
+    "versionPatch": "node mybuild/build/build --pubilsh"
+  },
+  "dependencies": {
+    "awe-dnd": "^0.3.1",
+    "copy-webpack-plugin": "^4.3.1",
+    "cropperjs": "^1.4.1",
+    "dateformat": "^3.0.2",
+    "element-ui": "^2.0.11",
+    "guid": "0.0.12",
+    "moment": "^2.22.2",
+    "nedb": "^1.8.0",
+    "socket.io": "^2.0.4",
+    "update-notifier": "^2.5.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "axios": "^0.16.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "bufferutil": "^3.0.3",
+    "chalk": "latest",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "fs-extra": "^4.0.1",
+    "html-webpack-plugin": "^2.28.0",
+    "iconv-lite": "latest",
+    "node-sass": "^4.5.3",
+    "npm-which": "^3.0.1",
+    "nw-builder": "^3.5.4",
+    "nwjs-builder-phoenix": "^1.14.4",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "ora": "^1.3.0",
+    "rimraf": "latest",
+    "sass-loader": "^6.0.5",
+    "url-loader": "^0.5.9",
+    "vue": "^2.3.3",
+    "vue-loader": "^12.2.1",
+    "vue-router": "^2.7.0",
+    "vue-template-compiler": "^2.3.3",
+    "vuex": "^2.3.1",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.7.1",
+    "webpack-hot-middleware": "^2.18.2",
+    "webpack-merge": "^4.1.1"
+  },
+  "window": {
+    "frame": true,
+    "icon": "./static/logo.png",
+    "width": 700,
+    "height": 520,
+    "resizable": false
+  },
+  "build": {
+    "nwVersion": "0.14.7",
+    "output": "../releases"
+  },
+  "main": "http://localhost:9080",
+  "node-remote": "*://localhost/*",
+  "chromium-args": "--enable-usermedia-screen-capturing"
+}

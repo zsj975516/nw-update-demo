@@ -1,0 +1,28 @@
+{
+  "name": "nw-update-demo-server",
+  "description": "application created by thinkjs",
+  "version": "1.0.0",
+  "author": "来日可期 <1084172570@qq.com>",
+  "scripts": {
+    "start": "node production.js"
+  },
+  "dependencies": {
+    "thinkjs": "^3.2.10"
+  },
+  "repository": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "thinkjs": {
+    "metadata": {
+      "name": "nw-update-demo-server",
+      "description": "application created by thinkjs",
+      "author": "",
+      "babel": false
+    },
+    "projectName": "nw-update-demo-server",
+    "clone": false,
+    "isMultiModule": false
+  }
+}
