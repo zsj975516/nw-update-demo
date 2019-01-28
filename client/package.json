@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "appId": "{4206C95D-82B0-4006-92A2-6BA362F29CD3}",
   "copyright": "Copyright(c) 2018",
-  "publisher": "同方赛威讯信息技术有限公司",
+  "publisher": "我的公司",
   "engines": {
     "node": ">= 5.12.0",
     "npm": ">= 3.0.0"
